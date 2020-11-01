@@ -1,0 +1,249 @@
+body
+{
+	padding: 0px;
+	margin: 0px;
+	background: url(gender.jpeg); /*#00bfff*/
+	font-family: Lora;
+
+}
+header
+{
+	background:#000000;
+	height: 66px;
+}
+header *
+{
+	color: white;
+}
+header .logo
+{
+	float: left;
+}
+header ul
+{
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+
+}
+header ul li
+{
+	float: left;
+	position: relative;
+
+}
+header ul li ul
+{
+	position: absolute;
+	top: 66px;
+	right: 0px;
+	width: 100px;
+	display: none;
+
+
+}
+header ul li:hover ul
+{
+	display: block;
+}
+header ul li ul li
+{
+	width: 100%;
+
+}
+header ul li ul li a
+{
+	padding: 10px;
+	background: white;
+	color: #444;
+
+}
+header ul li ul li a.logout
+{
+	color: red;
+}
+header ul li ul li a:hover
+{
+	background: #d5d6d6;
+}
+header ul li a
+{
+	display: block;
+	padding: 21px;
+	font-size: 1.1em;
+	text-decoration: none;
+}
+header ul li a:hover 
+{
+	background: #0000ff; /*#00bfff*/
+	transition: 0.5s;
+
+}
+header .menu-toggle
+{
+	display: none;
+
+}
+.main
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.Image1 img
+{
+	position: absolute;
+	top: 25%;
+	right:4%;
+
+}
+.Image2 img
+{
+	position: absolute;
+	top: 65%;
+	right:4%;
+
+}
+.Image3 img
+{
+	position: absolute;
+	top:24%;
+	left:3%;
+	height: 150px;
+	width: 230px;
+
+}
+.Image4 img
+{
+	position: absolute;
+	top:65%;
+	left:3%;
+}
+.Image5 img
+{
+	position: absolute;
+	top:100%;
+	left:3%;
+	height: 150px;
+}
+.Image6 img
+{
+	position: absolute;
+	top:100%;
+	right:1%;
+	width: 300px;
+}
+
+
+
+
+
+.wrapper
+{
+	position: absolute;
+	top:15%	;
+	left: 70%;
+	transform: translate(-50%,-50%);
+	background: rgba(0,0,0,0.6);
+	max-width: 250px;
+	width: 100%;
+	padding: 15px;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-between; 
+
+}
+
+.wrapper .input
+{
+	width: 85%;
+	padding: 15px 20px;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+	color:black;
+}
+.searchbtn
+{
+	background: #ff69b4;
+	width: 20%;
+	border-radius: 5px;
+	position: relative;
+	cursor: pointer;
+}
+.searchbtn .fa
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 18px;
+
+
+}
+.container
+{
+	min-height: 700px;
+	width: 700px;
+	margin: 0 auto;
+
+}
+.sidebar-primary
+{
+
+	width:100%;
+	float: left;
+
+}
+.forums
+{
+	background:white;
+	padding:10px 30px 10px 30px;
+	min-height: 200px;
+	margin-bottom: 20px;
+	float: left;
+
+}
+.forums-image
+{
+	float: left;
+
+}
+
+.forums-image img
+{
+	width:200px;
+	box-shadow: 0 12px 10px rgba(0,0,0,0.1);
+	padding: 10px;
+}
+.post-content
+{
+	margin-left: 125px;
+}
+.post-content h1
+{
+	font-size: 20px;
+
+}
+.post-content p
+{
+	font-size: 17px;
+	text-align: justify;
+	color: black;
+
+}
+.mt-40{
+	margin-top: 5%;
+
+}
+button
+{
+	color: black;
+	background: white;
+	border-radius: 30px;
+	cursor:pointer;
+	font-size: 15px;
+}

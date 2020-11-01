@@ -1,0 +1,110 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'forum.css' %}">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<div class="logo"><a href=""><img src="{% static 'logo.jpg' %}" height="60"></a>
+		</div>
+		<i class="fa fa-bars menu-toggle"></i>
+		<ul class="nav">
+			<li><a href="http://127.0.0.1:8000"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+			<li><a href="http://127.0.0.1:8000/sign_up/"><i class="fa fa-sign-in" aria-hidden="true"></i>Login/Register</a></li>
+			<li><a href="http://127.0.0.1:8000/forum"><i class="fa fa-comments-o" aria-hidden="true"></i>FORUM</a></li>
+			<li><a href="http://127.0.0.1:8000"><i class="fa fa-users" aria-hidden="true"></i>INFO</a></li>
+			<li>
+				<a href="#">
+					<i class="fa fa-user"></i>
+				Akshitha Akki
+				    <i class="fa fa-chevron-down" style="font-size: .8em"></i>
+			    </a>
+				<ul>
+			        <li><a href="#" class="logout">Logout</a></li>
+				</ul>
+			</li>
+		</ul>
+		 <div class="Image1"><a href=""><img src="{% static 'genderofteachers1.png' %}" height="150"></a>
+
+         </div>
+         <div class="Image2"><a href=""><img src="{% static 'RCB.jpg' %}" height="150"></a>
+         </div>
+          <div class="Image3"><a href=""><img src="{% static 'i3.jpg' %}" height="150"></a>
+          </div>
+         <div class="Image4"><a href=""><img src="{% static 'i4.jpg' %}" height="150"></a>
+         </div>
+          <div class="Image5"><a href=""><img src="{% static 'i5.jpg' %}" height="150"></a>
+          </div>
+         <div class="Image6"><a href=""><img src="{% static 'i6.jpg' %}" height="150"></a>
+         </div>
+
+
+
+
+
+
+  <div class="wrapper">
+  	<input type="text" class="input" placeholder="what are you looking for?" >
+  	    <div class="searchbtn">
+  	    	<i class="fa fa-search" aria-hidden="true"></i>
+
+  	    </div>
+  </div>
+    </header>
+  <div class="container mt-40">
+   	<div class="inner-wrapper">
+
+   		<div class="sidebar-primary">
+   			<div class="forums">
+   				<div class="forums-image">
+   					<a href=""><img src="{% static 'sahaha.png' %}" height="150"></a>
+
+   				</div>
+   				<div class="post-content">
+   					<h1>Title of Forum-1</h1>
+   					<p>Gender bias exists in every aspect of society—from the workplace to the political arena. The gender gap affects our children's education, the size of the paycheck we bring home, and why women still lag behind men in certain careers.</p>
+   					<button>Join</button>
+   					<button>Leave</button>
+   				</div>
+
+   			    </div>
+   			<div class="forums">
+   				<div class="forums-image">
+   					<a href=""><img src="{% static 'sahaha.png' %}" height="150"></a>
+
+   				</div>
+   				<div class="post-content">
+   					<h1>Title of Forum-2</h1>
+   					<p>As media coverage of female politicians has proven in recent elections, gender bias has crossed the aisle and it is not as rare as we might hope. It has challenged Democrats and Republicans, and has been witnessed toward nominees for high government positions..</p>
+   					<button>Join</button>
+   					<button>Leave</button>
+   				</div>
+
+   			</div>
+
+   			<div class="forums">
+   				<div class="forums-image">
+   					<a href=""><img src="{% static 'sahaha.png' %}" height="150"></a>
+
+   				</div>
+   				<div class="post-content">
+   					<h1>Title of Forum-3</h1>
+   					<p>As media coverage of female politicians has proven in recent elections, gender bias has crossed the aisle and it is not as rare as we might hope. It has challenged Democrats and Republicans, and has been witnessed toward nominees for high government positions..</p>
+   					<button>Join</button>
+   					<button>Leave</button>
+   				</div>
+
+   			</div>
+
+
+
+   		</div>
+
+
+
+
+</body>
+</html>
